@@ -10,12 +10,23 @@
     line-height: 100px;
     font-size: 15px;
 }
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
 .term {
   padding: 50px;
   background-color: #9BC362;
 }
-.examples {
+.work {
   padding: 20px;
-  display: inline;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }

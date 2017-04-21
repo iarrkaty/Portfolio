@@ -3,12 +3,22 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="term.css">
-  <script src="https://use.fontawesome.com/d94a64dbac.js"></script>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="menu" href="menu.js">
 </head>
 <body>
     <div id="header">
     				<div class="inner name">Katy SanGregory</a></div>
             <img src="img/katy.png" class="profile-picture"><br/><br/>
+            <svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg>
+            <symbol id="icon-menu" viewBox="0 0 32 32">
+              <div id="nav-container">
+                <div class="toggle-icon">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </div><!-- /toggle-icon -->
+              </div><!-- /nav-container -->
     				<!-- <div class="nav">
     				<ul class="mobile-nav">
     				<li class="mobile-header"><a href="#about">About</a></li>
